@@ -1,0 +1,80 @@
+/*
+    General. Links, root html, body nodes
+*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+html {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.25em;
+}
+
+body {
+    background-color: #00AE68;
+    color: #007143;
+}
+
+a {
+    text-decoration: none;
+    color: #0B5FA5;
+}
+a:hover {
+    color: #043C6B;
+}
+
+
+h1 { font-size: 3em; }
+
+h2 { font-size: 2em; }
+
+h3 { font-size: 1.5em; }
+
+h5 { font-size: 1.25em; }
+
+.logo {
+    font-family: 'Sancreek', cursive;
+}
+
+.logo a:active, .logo a:visited  {
+    color: #ffffff;
+}
+
+blockquote {
+    font-style: italic;
+    font-size: 1em;
+    margin: 0.5em 0.25em;
+}
+
+blockquote a {
+    color: #ffffff;
+}
+blockquote footer {
+    display: block;
+    font-style: normal;
+    font-size: 0.8em;
+    text-align: right;
+}
+
+header {
+    width: 100%;
+    background-color: #007143;
+    border-top: #00AE68 solid 0.75em;
+    color: #fff3f3;
+}
+
+button.search {margin-bottom: 0.5em;}
+img.search {width: 1em;}
+
+/*
+    Major common classes
+*/
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+.external .header-container {
+    width: 80%;
+}
+

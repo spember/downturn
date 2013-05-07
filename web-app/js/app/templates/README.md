@@ -1,0 +1,1 @@
+A TODO here is to move these raw HTML strings into Handlebars or Mustache templates.

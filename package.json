@@ -1,0 +1,12 @@
+{
+  "name": "downturn-front-end",
+  "version": "0.0.1",
+  "jsPath": "web-app/js/",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.1.1",
+    "grunt-contrib-nodeunit": "~0.1.2",
+    "grunt-contrib-uglify": "~0.2.0",
+    "grunt-karma": "~0.3.0"
+  }
+}
